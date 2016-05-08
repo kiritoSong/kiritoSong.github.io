@@ -1,0 +1,39 @@
+# Site settings
+title: 王睿的个人博客
+email: wangrui123@foxmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  王睿的博客
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "ruiwang321.github.io" # the base hostname & protocol for your site
+rss_url: /pages/feed.xml
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+
+# Social account
+twitter: null
+# weibo:    ID
+github: ruiwang321
+# codepen:  username
+# dribbble: username
+
+# avatar头像及Favicon
+avatar: ./assets/img/avatar_me.jpg
+favicon: ./assets/img/avatar_me.jpg
+
+# disqus 设置
+disqus:
+  shortname: ruiwang321
+
+# google analytics 设置
+ga:
+  id: UA-54767140-1
+  url: ruiwang321.github.io
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+sass:
+  style: compressed
